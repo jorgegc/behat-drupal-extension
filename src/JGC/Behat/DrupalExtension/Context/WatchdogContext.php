@@ -45,7 +45,7 @@ class WatchdogContext extends RawDrupalContext {
    * @AfterScenario @watchdog
    */
   public function afterWatchdogScenario() {
-    $this->assertWatchdogContainMessage('php');
+    $this->assertWatchdogContainsMessage('php');
   }
 
   /**
