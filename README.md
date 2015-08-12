@@ -7,8 +7,8 @@ The commonly used functionality used in Behat testing using Drupal.
 
 ### Available Contexts
 
-*WatchdogContext*
-  Provides step definitions for interacting with Drupal watchdog.
+- **WatchdogContext**
+  - Provides step definitions for interacting with Drupal watchdog.
 
 ## Installation
 
