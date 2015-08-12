@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Drupal\\DrupalExtension\\Context": "src/"
+            "JGC\\Behat\\DrupalExtension\\Context": "src/"
         }
     },
     "config": {

@@ -1,6 +1,8 @@
 <?php
 
-namespace Drupal\DrupalExtension\Context;
+namespace JGC\Behat\DrupalExtension\Context;
+
+use Drupal\DrupalExtension\Context\RawDrupalContext;
 
 /**
  * Provides step definitions for interacting with Drupal watchdog.
