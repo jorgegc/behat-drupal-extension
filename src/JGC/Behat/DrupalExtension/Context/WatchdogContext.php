@@ -23,7 +23,7 @@ class WatchdogContext extends RawDrupalContext {
    *
    * @Then the system logs should not contain any :type messages
    */
-  public function assertWatchdogContainMessage($type) {
+  public function assertWatchdogContainsMessage($type) {
     $messages = $this->fetchWatchdog($type);
     if ($messages) {
       throw new \Exception(implode(PHP_EOL, $messages));
